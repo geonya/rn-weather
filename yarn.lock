@@ -3499,6 +3499,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"expo-location@npm:~14.0.1":
+  version: 14.0.2
+  resolution: "expo-location@npm:14.0.2"
+  dependencies:
+    "@expo/config-plugins": ^4.0.2
+    unimodules-task-manager-interface: ~7.1.0
+  peerDependencies:
+    expo: "*"
+  checksum: 5ccf533f83f304a28547989218265dd2db1d0c7673fe34c3c8aad90452b5c5eaaec5e0d473b99f1fd5e78ed5176d9314e636c52d9ffd1dbbf6a650f1e72a55b2
+  languageName: node
+  linkType: hard
+
 "expo-modules-autolinking@npm:0.5.5":
   version: 0.5.5
   resolution: "expo-modules-autolinking@npm:0.5.5"
@@ -6647,6 +6659,7 @@ __metadata:
   dependencies:
     "@babel/core": ^7.12.9
     expo: ~44.0.0
+    expo-location: ~14.0.1
     expo-status-bar: ~1.2.0
     react: 17.0.1
     react-dom: 17.0.1
@@ -7458,6 +7471,15 @@ __metadata:
   version: 2.0.0
   resolution: "unicode-property-aliases-ecmascript@npm:2.0.0"
   checksum: dda4d39128cbbede2ac60fbb85493d979ec65913b8a486bf7cb7a375a2346fa48cbf9dc6f1ae23376e7e8e684c2b411434891e151e865a661b40a85407db51d0
+  languageName: node
+  linkType: hard
+
+"unimodules-task-manager-interface@npm:~7.1.0":
+  version: 7.1.1
+  resolution: "unimodules-task-manager-interface@npm:7.1.1"
+  peerDependencies:
+    expo: "*"
+  checksum: c1b5a04cbd0ca9c4c426aac59e63b142c21a05b5d074348f799b589bd64518af2e1de5520e3f0857d0bf9f4488ad5951b59fbc2344ae679b97b383246a6daadb
   languageName: node
   linkType: hard
 
